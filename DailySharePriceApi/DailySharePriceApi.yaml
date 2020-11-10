@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: dnrepos1
-        image: portfoliomanagementcr.azurecr.io/dnrepos1:latest
+        image: mfpeportfoliomanagementcr.azurecr.io/dnrepos1:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
